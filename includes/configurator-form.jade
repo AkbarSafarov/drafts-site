@@ -1,0 +1,179 @@
+include _header.jade
+<div class="title_page_block">
+    <div class="block_inner">
+        <h1>Конфигуратор</h1>
+        <div class="path">
+            <a href="">Главная</a><span>/</span>Внутренняя
+        </div>
+        <div class="gr_line"></div>
+    </div>
+</div>
+
+<div class="configurator_page">
+    <div class="block_inner">
+        <div class="c_form">
+            <div class="form_inner">
+                <form action="">
+                    <div class="name">Получатель:</div>
+                    <div class="row">
+                        <div class="field">
+                            <input type="text" placeholder="Ваше имя">
+                        </div>
+                        <div class="field">
+                            <input type="text" placeholder="Ваша фамилия">
+                        </div>
+                        <div class="field">
+                            <input type="text" placeholder="Ваш номер телефона">
+                        </div>
+                        <div class="field">
+                            <input type="text" placeholder="Ваша почта">
+                        </div>
+                    </div>
+                    <div class="name">Доставка:</div>
+                    <div class="field radio">
+                        <div>
+                            <label><input type="radio" checked name="shiping"><span></span>Самовывоз</label>
+                        </div>
+                        <div>
+                            <label><input type="radio" name="shiping"><span></span>Доставка</label>
+                        </div>
+                    </div>
+                    <div class="name">Оплата:</div>
+                    <div class="field radio">
+                        <div>
+                            <label><input type="radio" checked name="pay"><span></span>Наличный расчет</label>
+                        </div>
+                        <div>
+                            <label><input type="radio" name="pay"><span></span>Безналичный расчет</label>
+                        </div>
+                    </div>
+                    <div class="bottom_button">
+                        <button type="submit" class="btn_button" value=""><span>Отправить</span></button>
+                        <div class="total_form">
+                            <div class="name">Общая стоимость:</div>
+                            <div class="total">487.500 ₽</div>
+                        </div>
+                    </div>
+                </form>
+            </div>
+        </div>      
+        <div class="c_right">
+            <div class="name">Ваш заказ:</div>
+            <div class="c_list_prod">
+                <div class="item">
+                    <div class="name">Корпус:</div>
+                    <div class="prod">Видеокарта PALIT GeForce RTX 3060 Ti Dual OC 8GB</div>
+                    <div class="prod">Palit RTX 4090 GameRock 24GB</div>
+                </div>
+            
+                <div class="item">
+                    <div class="name">Материнская плата:</div>
+                    <div class="prod">Palit RTX 4090 GameRock 24GB</div>
+                    <div class="prod">Видеокарта Palit GeForce RTX 3090 GamingPro 24GB</div>
+                </div>
+            
+                <div class="item">
+                    <div class="name">Охлаждение:</div>
+                    <div class="prod">Видеокарта Palit GeForce RTX 3090 GamingPro 24GB</div>
+                </div>
+            
+                <div class="item">
+                    <div class="name">Блок питания:</div>
+                    <div class="prod">Palit RTX 4090 GameRock 24GB</div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>                  
+
+<div class="slider_block_pr">
+    <div class="swiper_arrow">
+        <div class="swiper_arrow_btn swiper-prev swiper-pr-prev"></div>
+        <div class="swiper_arrow_btn swiper-next swiper-pr-next"></div>
+    </div>
+    <div class="block_inner">
+        <div class="title">Готовые сборки</div>
+        <div class="gr_line"></div>
+        <div class="inner">
+            <div class="swiper mySwiper_pr" data-id="mySwiper_pr" data-arrow="pr">
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide">
+                        include product-item.jade
+                    </div>
+                    <div class="swiper-slide">
+                        include product-item.jade
+                    </div>
+                    <div class="swiper-slide">
+                        include product-item.jade
+                    </div>
+                    <div class="swiper-slide">
+                        include product-item.jade
+                    </div>
+                    <div class="swiper-slide">
+                        include product-item.jade
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="works_gall_wr">
+    <div class="title">
+        <div class="block_inner">
+            <div class="name">Наши работы</div>
+            <div class="gr_line"></div>
+        </div>
+    </div>
+    <div class="swiper mySwiper_gal" data-id="mySwiper_gal" id="mySwiper_gal">
+        <div class="swiper-wrapper">
+            <a href="files/gal1.jpg" class="swiper-slide">
+                <img src="files/gal1.jpg" alt="">
+            </a>
+            <a href="files/gal2.jpg" class="swiper-slide">
+                <img src="files/gal2.jpg" alt="">
+            </a>
+            <a href="files/gal1.jpg" class="swiper-slide">
+                <img src="files/gal1.jpg" alt="">
+            </a>
+            <a href="files/gal2.jpg" class="swiper-slide">
+                <img src="files/gal2.jpg" alt="">
+            </a>
+            <a href="files/gal1.jpg" class="swiper-slide">
+                <img src="files/gal1.jpg" alt="">
+            </a>
+        </div>
+    </div>
+    <div class="swiper-scrollbar"></div>
+</div>
+<div class="slider_block_pr">
+    <div class="swiper_arrow">
+        <div class="swiper_arrow_btn swiper-prev swiper-pr-prev"></div>
+        <div class="swiper_arrow_btn swiper-next swiper-pr-next"></div>
+    </div>
+    <div class="block_inner">
+        <div class="title">Популярные товары</div>
+        <div class="gr_line"></div>
+        <div class="inner">
+            <div class="swiper mySwiper_pr" data-id="mySwiper_pr" data-arrow="pr">
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide">
+                        include product-item.jade
+                    </div>
+                    <div class="swiper-slide">
+                        include product-item.jade
+                    </div>
+                    <div class="swiper-slide">
+                        include product-item.jade
+                    </div>
+                    <div class="swiper-slide">
+                        include product-item.jade
+                    </div>
+                    <div class="swiper-slide">
+                        include product-item.jade
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+include _footer.jade

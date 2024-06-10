@@ -1,0 +1,246 @@
+include _header.jade
+<div class="slider_block_bg">
+    <div class="swiper_arrow">
+        <div class="swiper_arrow_btn swiper-prev swiper-bg-prev"></div>
+        <div class="swiper_arrow_btn swiper-next swiper-bg-next"></div>
+    </div>
+    <div class="swiper mySwiper_bg" data-id="mySwiper_bg" data-arrow="bg">
+        <div class="swiper-wrapper">
+            <div class="swiper-slide" style="background-image: url(files/slid.jpg);">
+                <div class="block_inner">
+                    <div class="inner">
+                        <div class="title">Мощность в твоих руках!</div>
+                        <div class="text">Лучшие сборки и комплектующие только у нас!</div>
+                        <a href="" class="btn_button"><span>Перейти К сборкам</span></a>
+                    </div>
+                </div>
+            </div>
+            <div class="swiper-slide" style="background-image: url(files/slid.jpg);">
+                <div class="block_inner">
+                    <div class="inner">
+                        <div class="title">Мощность в твоих руках!</div>
+                        <div class="text">Лучшие сборки и комплектующие только у нас!</div>
+                        <a href="" class="btn_button"><span>Перейти К сборкам</span></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="categor_block_wr">
+    <div class="block_inner">
+        <a href="products2.html" class="item neon-shadow">
+            <span class="image">
+                <img src="files/cat1.png" alt="">
+            </span>
+            <span class="name">Мониторы</span>
+        </a>
+        <a href="products2.html" class="item neon-shadow">
+            <span class="image">
+                <img src="files/cat2.png" alt="">
+            </span>
+            <span class="name">Мониторы</span>
+        </a>
+        <a href="products2.html" class="item neon-shadow">
+            <span class="image">
+                <img src="files/cat3.png" alt="">
+            </span>
+            <span class="name">Мониторы</span>
+        </a>
+        <a href="products2.html" class="item neon-shadow">
+            <span class="image">
+                <img src="files/cat4.png" alt="">
+            </span>
+            <span class="name">Мониторы</span>
+        </a>
+        <a href="products2.html" class="item neon-shadow">
+            <span class="image">
+                <img src="files/cat5.png" alt="">
+            </span>
+            <span class="name">Мониторы</span>
+        </a>
+        <a href="products2.html" class="item neon-shadow">
+            <span class="image">
+                <img src="files/cat6.png" alt="">
+            </span>
+            <span class="name">Мониторы</span>
+        </a>
+        <a href="products2.html" class="item neon-shadow">
+            <span class="image">
+                <img src="files/cat7.png" alt="">
+            </span>
+            <span class="name">Мониторы</span>
+        </a>
+        <a href="products2.html" class="item neon-shadow">
+            <span class="image">
+                <img src="files/cat8.png" alt="">
+            </span>
+            <span class="name">Мониторы</span>
+        </a>
+    </div>
+</div>
+<div class="slider_block_pr">
+    <div class="swiper_arrow">
+        <div class="swiper_arrow_btn swiper-prev swiper-pr-prev"></div>
+        <div class="swiper_arrow_btn swiper-next swiper-pr-next"></div>
+    </div>
+    <div class="block_inner">
+        <div class="title">Готовые сборки</div>
+        <div class="gr_line"></div>
+        <div class="inner">
+            <div class="swiper mySwiper_pr" data-id="mySwiper_pr" data-arrow="pr">
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide">
+                        include product-item.jade
+                    </div>
+                    <div class="swiper-slide">
+                        include product-item.jade
+                    </div>
+                    <div class="swiper-slide">
+                        include product-item.jade
+                    </div>
+                    <div class="swiper-slide">
+                        include product-item.jade
+                    </div>
+                    <div class="swiper-slide">
+                        include product-item.jade
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="works_gall_wr">
+    <div class="title">
+        <div class="block_inner">
+            <div class="name">Наши работы</div>
+            <div class="gr_line"></div>
+        </div>
+    </div>
+    <div class="swiper mySwiper_gal" data-id="mySwiper_gal" id="mySwiper_gal">
+        <div class="swiper-wrapper">
+            <a href="files/gal1.jpg" class="swiper-slide">
+                <img src="files/gal1.jpg" alt="">
+            </a>
+            <a href="files/gal2.jpg" class="swiper-slide">
+                <img src="files/gal2.jpg" alt="">
+            </a>
+            <a href="files/gal1.jpg" class="swiper-slide">
+                <img src="files/gal1.jpg" alt="">
+            </a>
+            <a href="files/gal2.jpg" class="swiper-slide">
+                <img src="files/gal2.jpg" alt="">
+            </a>
+            <a href="files/gal1.jpg" class="swiper-slide">
+                <img src="files/gal1.jpg" alt="">
+            </a>
+        </div>
+    </div>
+    <div class="swiper-scrollbar"></div>
+</div>
+<div class="slider_block_pr">
+    <div class="swiper_arrow">
+        <div class="swiper_arrow_btn swiper-prev swiper-pr-prev"></div>
+        <div class="swiper_arrow_btn swiper-next swiper-pr-next"></div>
+    </div>
+    <div class="block_inner">
+        <div class="title">Популярные товары</div>
+        <div class="gr_line"></div>
+        <div class="inner">
+            <div class="swiper mySwiper_pr" data-id="mySwiper_pr" data-arrow="pr">
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide">
+                        include product-item.jade
+                    </div>
+                    <div class="swiper-slide">
+                        include product-item.jade
+                    </div>
+                    <div class="swiper-slide">
+                        include product-item.jade
+                    </div>
+                    <div class="swiper-slide">
+                        include product-item.jade
+                    </div>
+                    <div class="swiper-slide">
+                        include product-item.jade
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="block_link_wr">
+    <div class="block_inner">
+        <div class="item" style="background-image: url(files/link_img1.png);">
+            <div class="inner">
+                <div class="name">Закажи сборку ПК до 1 июля 2024 г. и получи скидку 20%</div>
+                <a href="" class="btn_button"><span>Подробнее</span></a>
+            </div>
+        </div>
+        <div class="item" style="background-image: url(files/link_img2.png);">
+            <div class="inner">
+                <div class="name">Видеокарты 30 серии на скидке до 30%</div>
+                <a href="" class="btn_button"><span>Подробнее</span></a>
+            </div>
+        </div>
+        <div class="item" style="background-image: url(files/link_img3.png);">
+            <div class="inner">
+                <div class="name">Подарочный сертификат от SV TECH</div>
+                <a href="" class="btn_button"><span>Подробнее</span></a>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="about_block_wr">
+    <div class="block_inner">
+        <div class="title">О нашем магазине</div>
+        <div class="gr_line"></div>
+        <div class="inner">
+            <div class="text">
+                <p>Сайт рыбатекст поможет дизайнеру, верстальщику, вебмастеру сгенерировать несколько абзацев более менее осмысленного текста рыбы на русском языке, а начинающему оратору отточить навык публичных выступлений в домашних условиях. При создании генератора мы использовали небезизвестный универсальный код речей. </p>
+                <p>Текст генерируется абзацами случайным образом от двух до десяти предложений в абзаце, что позволяет сделать текст более привлекательным и живым для визуально-слухового восприятия.</p>
+            </div>
+            <div class="right">
+                <div class="item">
+                    <div class="icon">
+                        <img src="files/a1.svg" alt="">
+                    </div>
+                    <div class="name">2 года гарантия на все сборки</div>
+                </div>
+                <div class="item">
+                    <div class="icon">
+                        <img src="files/a2.svg" alt="">
+                    </div>
+                    <div class="name">Доставка по всей стране</div>
+                </div>
+                <div class="item">
+                    <div class="icon">
+                        <img src="files/a3.svg" alt="">
+                    </div>
+                    <div class="name">Регулярные скидки и акции</div>
+                </div>
+                <div class="item">
+                    <div class="icon">
+                        <img src="files/a4.svg" alt="">
+                    </div>
+                    <div class="name">Обслуживание и выявление неисправностей</div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="news_block_wr">
+    <div class="block_inner">
+        <div class="title">Новости</div>
+        <div class="gr_line"></div>
+        <div class="inner">
+            include _new.jade
+            include _new.jade
+            include _new.jade
+        </div>
+        <div class="btn_more">
+            <a href="" class="btn_button"><span>Все новости</span></a>
+        </div>
+    </div>
+</div>
+include _footer.jade

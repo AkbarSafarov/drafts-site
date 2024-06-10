@@ -1,0 +1,134 @@
+include _header.jade
+<div class="title_page_block">
+    <div class="block_inner">
+        <h1>Каталог</h1>
+        <div class="path">
+            <a href="">Главная</a><span>/</span>Внутренняя
+        </div>
+        <div class="gr_line"></div>
+    </div>
+</div>
+<div class="products_block_page">
+    <div class="block_inner">
+        <div class="sort_block">
+            <div class="name">Сортировать:</div>
+            <a href="" class="sort_price neon-shadow"><span><span>По цене</span></span></a>
+            <a href="" class="sort_name neon-shadow active"><span><span>По названию</span></span></a>
+            <a href="" class="sort_date neon-shadow"><span><span>По дате</span></span></a>
+        </div>
+        <div class="inner">
+            include product-item2.jade
+            include product-item2.jade
+            include product-item2.jade
+            include product-item2.jade
+            include product-item2.jade
+            include product-item2.jade
+            include product-item2.jade
+            include product-item2.jade
+        </div>
+        <div class="page_list_wr">
+            <div class="inner">
+                <ul>
+                    <li><a href="">1</a></li>
+                    <li><a href="">2</a></li>
+                    <li><span class="active">3</span></li>
+                    <li><a href="">4</a></li>
+                    <li><a href="">5</a></li>
+                    <li><div class="dots">...</div></li>
+                    <li><a href="">10</a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="slider_block_pr">
+    <div class="swiper_arrow">
+        <div class="swiper_arrow_btn swiper-prev swiper-pr-prev"></div>
+        <div class="swiper_arrow_btn swiper-next swiper-pr-next"></div>
+    </div>
+    <div class="block_inner">
+        <div class="title">Готовые сборки</div>
+        <div class="gr_line"></div>
+        <div class="inner">
+            <div class="swiper mySwiper_pr" data-id="mySwiper_pr" data-arrow="pr">
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide">
+                        include product-item.jade
+                    </div>
+                    <div class="swiper-slide">
+                        include product-item.jade
+                    </div>
+                    <div class="swiper-slide">
+                        include product-item.jade
+                    </div>
+                    <div class="swiper-slide">
+                        include product-item.jade
+                    </div>
+                    <div class="swiper-slide">
+                        include product-item.jade
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="works_gall_wr">
+    <div class="title">
+        <div class="block_inner">
+            <div class="name">Наши работы</div>
+            <div class="gr_line"></div>
+        </div>
+    </div>
+    <div class="swiper mySwiper_gal" data-id="mySwiper_gal" id="mySwiper_gal">
+        <div class="swiper-wrapper">
+            <a href="files/gal1.jpg" class="swiper-slide">
+                <img src="files/gal1.jpg" alt="">
+            </a>
+            <a href="files/gal2.jpg" class="swiper-slide">
+                <img src="files/gal2.jpg" alt="">
+            </a>
+            <a href="files/gal1.jpg" class="swiper-slide">
+                <img src="files/gal1.jpg" alt="">
+            </a>
+            <a href="files/gal2.jpg" class="swiper-slide">
+                <img src="files/gal2.jpg" alt="">
+            </a>
+            <a href="files/gal1.jpg" class="swiper-slide">
+                <img src="files/gal1.jpg" alt="">
+            </a>
+        </div>
+    </div>
+    <div class="swiper-scrollbar"></div>
+</div>
+<div class="slider_block_pr">
+    <div class="swiper_arrow">
+        <div class="swiper_arrow_btn swiper-prev swiper-pr-prev"></div>
+        <div class="swiper_arrow_btn swiper-next swiper-pr-next"></div>
+    </div>
+    <div class="block_inner">
+        <div class="title">Популярные товары</div>
+        <div class="gr_line"></div>
+        <div class="inner">
+            <div class="swiper mySwiper_pr" data-id="mySwiper_pr" data-arrow="pr">
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide">
+                        include product-item.jade
+                    </div>
+                    <div class="swiper-slide">
+                        include product-item.jade
+                    </div>
+                    <div class="swiper-slide">
+                        include product-item.jade
+                    </div>
+                    <div class="swiper-slide">
+                        include product-item.jade
+                    </div>
+                    <div class="swiper-slide">
+                        include product-item.jade
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+include _footer.jade
