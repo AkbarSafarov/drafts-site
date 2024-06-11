@@ -33,6 +33,7 @@
   position: absolute;
   top: 50%;
   z-index: 1080;
+  border: none;
 }
 .lg-actions .lg-next.disabled, .lg-actions .lg-prev.disabled {
   pointer-events: none;
@@ -178,6 +179,8 @@
   -webkit-transition: color 0.2s linear;
   -o-transition: color 0.2s linear;
   transition: color 0.2s linear;
+  background: none !important;
+  border: none;
 }
 .lg-toolbar .lg-icon:hover {
   color: #FFF;

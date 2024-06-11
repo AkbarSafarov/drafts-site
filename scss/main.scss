@@ -665,7 +665,7 @@ img, textarea, input, table {
         bottom: 2px;
         right: 2px;
         left: 2px;
-        background: #000;
+        background: #171717;
         transition: all 0.3s;
     }
 
@@ -762,13 +762,12 @@ img, textarea, input, table {
             }
         }
 
-        
-
         .phone  {
             flex: 0 0 140px;
             font-weight: 700;
             font-size: 16px;
             color: #fff;
+            white-space: nowrap;
         }
 
         .social_block {
@@ -2703,6 +2702,7 @@ img, textarea, input, table {
             @media all and (max-width: 980px){
                 flex: none;
                 width: 100%;
+                background: #1f1f1f;
             }
 
             ul {
@@ -2940,6 +2940,11 @@ img, textarea, input, table {
 
             .btn_button {
                 padding: 18px 28px;
+                margin: 0 10px;
+
+                &:before {
+                    background: #000;
+                }
             }
         }
 
@@ -3797,4 +3802,20 @@ img, textarea, input, table {
             }
         }
     }
+}
+
+.product_item .btn_button.no_buy {
+    margin: 0 11px; 
+
+    @media all and (max-width: 767px){
+        padding: 22px 20px;
+    }
+
+    &:before {
+        background: #000;
+    }
+}
+
+.product_item .btn_button.buy_btn:before {
+    background: #000;
 }
